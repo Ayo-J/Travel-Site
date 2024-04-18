@@ -5,6 +5,9 @@
   font-family:sans-serif;
 }
 
-.App{
-
+.nav{
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+  margin-top: 1%;
 }
