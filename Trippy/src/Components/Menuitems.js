@@ -11,7 +11,7 @@ export const Menuitems = [
 
 {
   title : "About",
-  url :'/',
+  url :'/About',
   cName :'nav-links',
   icon:"fa-regular fa-circle-info",
 
@@ -19,14 +19,14 @@ export const Menuitems = [
 
 {
   title : "Service",
-  url :'/',
+  url :'/Service',
   cName :'nav-links',
   icon:"fa-regular fa-house-user",
 
 },
 {
   title : "Contact",
-  url :'/',
+  url :'/Contact',
   cName :'nav-links',
   icon:"fa-regular fa-house-user",
 
