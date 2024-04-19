@@ -1,6 +1,8 @@
 import React from 'react'
 import Hero from './Hero';
+import "./Contactstyle.css"
 import contactimg  from "../assets/contactimg.jpeg";
+import ContactForm from './Contactform';
 
 
 export default function Contact() {
@@ -15,6 +17,12 @@ export default function Contact() {
         btnClass="show"
         
         />
+
+        <ContactForm/>
+
+
+
+
     </>
   )
 }

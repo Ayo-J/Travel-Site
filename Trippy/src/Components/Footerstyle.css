@@ -1,0 +1,56 @@
+
+
+
+.footer{
+  padding: 4rem 6rem;
+  background-color: rgba(0, 0, 0, 0.89);
+  color: aliceblue;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  text-align: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.top i{
+
+}
+.bottum{
+ padding-top: 2rem;
+ text-align: start;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+.bottum h4{
+  font-weight: 900;
+}
+.bottum div{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 .8rem;
+}
+
+.bottum a{
+  color: aliceblue;
+  padding-bottom: 0.4rem;
+  font-size: 1.1rem;
+}
+
+.bottum a:hover{
+  color: rgb(24, 231, 231);
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 4rem 6rem; /* Restore padding for larger screens */
+  }
+
+  .bottum div {
+    padding-right: 2rem; /* Add some right padding between columns */
+  }
+}
+

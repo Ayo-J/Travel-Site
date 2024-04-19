@@ -2,6 +2,8 @@ import React from 'react';
 import Hero from './Hero';
 import img1 from "../assets/hero.jpg";
 import Destination from './Destination';
+import Trip from './Trip';
+import Footer from './Footer';
 
 function Home() {
   return (
@@ -18,6 +20,10 @@ function Home() {
       />
 
       <Destination/>
+
+      <Trip/>
+
+      
     </div>
   )
 }

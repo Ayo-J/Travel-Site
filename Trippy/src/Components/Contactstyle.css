@@ -1,0 +1,54 @@
+
+.from-container {
+  text-align: center;
+
+  margin-left: 50%;
+  color: black;
+  border: 9px solid rgba(19, 9, 9, 0.267);
+  border-radius: 50px;
+  padding: 2rem ;
+  border-style: ridge;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.212);
+}
+.from-container form{
+  
+  text-align: center;
+  align-items: center;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+
+}
+.from-container h1{
+  align-items: center;
+
+  color: rgb(8, 109, 109);
+}
+.from-container input{
+  height: 3rem;
+  padding:1rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+  border: 1px solid rgb(12, 113, 126);
+}
+.from-container textarea{
+  height: 6rem;
+  width: 100%;
+  padding:1rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+  border: 1px solid rgb(12, 113, 126);
+}
+ .btn-contact{
+  background-color: rgb(30, 112, 112);
+ }
+ .btn-contact:hover{
+  background-color: black;
+ }
+ @media screen and (min-width: 768px) {
+  .from-container {
+    margin: 4rem 15%; /* Adjust margin for larger screens */
+  }
+}
