@@ -1,0 +1,72 @@
+body{
+  align-items: center;
+  background-color: aliceblue;
+}
+.destination{
+  align-items: center;
+  margin: 4rem 6rem;
+}
+.destination h1{
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+.first-des{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+  }
+  .first-des-reverse
+  {
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+  }
+  .des-text {
+    width: 45%;
+    text-align: center;
+    font-size:1.1rem ;
+
+  }
+
+  .des-text h2{
+    padding-bottom: 1rem;
+
+  }
+  .image{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+  }
+
+  .image img{
+    width: 49%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+
+  }
+
+  .image img:nth-child(2){
+    position: relative;
+  margin-bottom: 50px;
+    right: 0;
+
+  }
+  @media screen and (min-width: 768px) {
+    .destination {
+      margin: 4rem 10%; /* Adjust margin for larger screens */
+    }
+  
+    .image img {
+      max-width: 40%; /* Adjust image width */
+    }
+  }

@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from './Hero';
 import img1 from "../assets/hero.jpg";
+import Destination from './Destination';
 
 function Home() {
   return (
@@ -15,6 +16,8 @@ function Home() {
       btnClass="show"
       
       />
+
+      <Destination/>
     </div>
   )
 }

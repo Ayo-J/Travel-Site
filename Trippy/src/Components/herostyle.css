@@ -32,18 +32,49 @@ img {
 .hero-text h1 {
   font-size: 3rem;
   font-weight: 800;
-  background: #ffff;
+  background: #f5f5f5;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow:2px 0.6px 0.5px rgb(253, 253, 253);
+  cursor: pointer;
+
 }
+
 
 .hero-text p {
   font-size: 1.3rem;
   padding: 0.5rem 0.2rem 0;
+  font-weight: bold;
+  color: rgb(250, 250, 250);
+  text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; 
+
 }
 
 .hero-text .show {
   text-decoration: none;
-  background: #ffff;
+  background: #c72020;
   padding: 1rem;
+
+ 
+}
+.btn{
+  color: #fff;
+  background-color: rgb(15, 29, 29);
+  margin: 20px;
+  border-radius: 13px;
+  padding: 20px;
+  
+}
+.btn:hover{
+  background-color: aqua;
+  transition: all 0.6s ease-in-out;
+  color: #000;
+  font-weight: bold;
+}
+.btn-main{
+  margin-top: 50px;
 }
